@@ -9,7 +9,7 @@
         <div class="d-flex flex-column align-center">
           <div class="header">
             <div class="main-title title">Lista de Familiares</div>
-            <div class="subtitle"> Confirmar Presença ate dia 10/12!</div>
+            <div class="subtitle"> Confirmar Presença ate dia 05/12!</div>
             <div>
               <div class="list-people" v-for="item in people" :key="item">
                 <v-icon>mdi-account-circle-outline</v-icon>
@@ -74,7 +74,7 @@ export default {
       delete this.family.databaseId
       this.family.confirm = true
       const res = await updateValues(databaseId, this.family)
-      if (res === 'succesful') window.open('https://chat.whatsapp.com/H69xars1MbSIDroEZT6v5z');
+      if (res === 'succesful') window.open('https://chat.whatsapp.com/KNYFmrPkdys7C4FI3olqU3');
     }
   }
 }
