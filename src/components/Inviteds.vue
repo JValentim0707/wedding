@@ -25,7 +25,7 @@
                 max-height="60"
                 max-width="80%"
               >
-                Após está data não podera parcipar
+                Após está data não podera participar
               </v-alert>
               <div class="confirm-button" @click="onConfirm()">Confirmar</div>
             </div>

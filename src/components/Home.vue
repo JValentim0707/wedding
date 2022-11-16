@@ -8,11 +8,22 @@
           Venha participar do casamento mais esperado e se alegrar conosco
         </div>
         <div class="descrption mt-2 d-flex justify-center">
-          <div class="mr-2">Dia: 17/12/2022</div>
-          <div>Hora: 18:30</div>
+          <div class="mr-2" style="font-size: 35px !important;">Dia: 17/12/2022</div>
+          <div style="font-size: 35px !important;">Hora: 18:30</div>
+        </div>
+        <div class="descrption mt-2 d-flex justify-center">
+          <div class="mr-2" style="font-size: 30px !important;">Apocalipse 3:5</div>
         </div>
       </div>
     </div>
+    <v-alert
+      type="warning"
+      class="d-flex mb-0"
+      style="border-radius: 0;"
+      height="70"
+    >
+    Confirmar Presença ate dia 05/12 após está data não podera participar
+   </v-alert>
   </v-container >
 </template>  
 <script>
@@ -71,7 +82,7 @@ export default {
   }
 .container-content {
   width: 100%;
-  height: 100vh;
+  height: 86%;
   padding: 0px;
   .content {
     background-image: url("../assets/better.jpg");
@@ -105,7 +116,7 @@ export default {
         font-size: 30px !important;
       }
       .descrption {
-        font-size: 20px !important;
+        font-size: 26px !important;
         max-width: 280px;
       }
     }
