@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Home from  '../components/Home'
+import Inviteds from '../components/Inviteds.vue'
+import Invited from '../components/Invited.vue'
+import Gifts from '../components/Gifts.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +11,22 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: Home
+  },
+  {
+    path: '/inviteds',
+    name: 'invited',
+    component: Invited
+  },
+  {
+    path: '/inviteds/:id',
+    name: 'inviteds',
+    component: Inviteds
+  },
+  {
+    path: '/gift',
+    name: 'gift',
+    component: Gifts
   },
   {
     path: '/about',
